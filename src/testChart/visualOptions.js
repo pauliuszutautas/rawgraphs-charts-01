@@ -7,4 +7,47 @@ export const visualOptions = {
   //   default: 20,             // default value
   //   group: 'Panel name',        // in which panel of the interface the option will be displayed
   // },
+  dotsRadius: {
+    type: 'number',
+    label: 'Dots radius',
+    default: 8,
+    group: 'chart',
+  },
+  colorScale: {
+    type: 'colorScale',
+    label: 'Color scale',
+    dimension: 'color',
+    default: {
+      scaleType: 'ordinal',
+      interpolator: 'interpolateSpectral',
+    },
+    group: 'color',
+  },
+  marginTop: {
+    type: 'number',
+    label: 'Margin (top)',
+    default: 10,
+    group: 'artboard',
+  },
+
+  marginRight: {
+    type: 'number',
+    label: 'Margin (right)',
+    default: 2,
+    group: 'artboard',
+  },
+
+  marginBottom: {
+    type: 'number',
+    label: 'Margin (bottom)',
+    default: 2,
+    group: 'artboard',
+  },
+
+  marginLeft: {
+    type: 'number',
+    label: 'Margin (left)',
+    default: 2,
+    group: 'artboard',
+  },
 }

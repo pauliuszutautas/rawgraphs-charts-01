@@ -34,11 +34,10 @@ html, body {
 
 .chart-container {
     border: solid 1px #ccc;
-    background-color: #ccc;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px
-
+    padding: 40px
 }
 

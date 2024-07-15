@@ -1,10 +1,8 @@
 export const metadata = {
-  name: 'emty chart',
-  id: 'rawgraphs.emptychart',
-  // thumbnail,
-  // icon,
-  categories: ['Test', 'Debugging'],
-  description: 'An empty chart to bootstrap new ones',
-  // code: 'https://github.com/rawgraphs',
-  // tutorial: 'https://rawgraphs.io/learning/',
-}
+  name: 'Test chart',
+  id: 'rawgraphs.testChart001',
+  category: 'Testing, debugging',
+  description: 'a very simple scatterplot',
+  code: 'https://observablehq.com/',
+  tutorial: 'https://rawgraphs.io/learning/',
+};

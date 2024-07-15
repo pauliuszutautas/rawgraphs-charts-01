@@ -52,7 +52,7 @@ export function render(
     bottom: marginBottom,
     left: marginLeft,
   }
-
+console.log(margin)
   data.forEach((d) => {
     // compute the total value for each pie
     d.totalValue = d3.sum(mapping.arcs.value.map((arc) => d[arc]))
