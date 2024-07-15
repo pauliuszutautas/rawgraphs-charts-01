@@ -1,4 +1,4 @@
-import chart from 'rawcharts/testChart'
+import chart from 'rawcharts/testchart'
 import data from '../datasets/Music.csv'
 
 export default {
